@@ -9,6 +9,21 @@ int remainder = number % 10;
 reverse = reverse * 10 + remainder;  
 number = number/10;  
 }  
-System.out.println("The reverse of the given number is: " + reverse);  
+System.out.println("The reverse of the given number is: " + reverse);
+//changes made by Mounika in feature1 branch 
+ public static void reverseNumber(int number)   
+{  
+if (number < 10)   
+{  
+//prints the same number if the number is less than 10  
+System.out.println(number);  
+return;  
 }  
-}  [A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[}[B
+else   
+{  
+System.out.print(number % 10);  
+reverseNumber(number/10);  
+}  
+}  
+} 
+}
