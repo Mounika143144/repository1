@@ -20,8 +20,7 @@ System.out.println(number);
 return;  
 }  
 else   
-{  
-System.out.print(number % 10);  
+{    
 reverseNumber(number/10);  
 }  
 }  
